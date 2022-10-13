@@ -1,0 +1,22 @@
+:root {
+    --bg: #00015a;
+}
+
+.gameBoard {
+    background-color: var(--bg);
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid var(--bg);
+}
+#gameCanvas {
+    background-color: white;
+    border: 1px solid var(--bg);
+}
+
+
+/* Debug */
+#debug {
+    color: white;
+    background-color: black;
+}
